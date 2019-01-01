@@ -21,7 +21,7 @@ $(document).ready(function() {
     reset();
     //functions
     function begin(){ 
-        characters=["rey","obi","Finn","kylo"];
+        characters=["rey","obi","finn","kylo"];
         healthPoints=[120,100,150,180];
         attackPower=[8,5,20,25];
         counterPower=[8,5,20,25];
