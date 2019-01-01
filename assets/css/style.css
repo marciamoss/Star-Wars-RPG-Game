@@ -1,0 +1,23 @@
+body{
+    color:whitesmoke;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+.warriorsClass, .enemiesClass, .defenderClass{
+    width:80px;
+    border-style: solid;
+    border-width: 10px;
+    
+}
+.warriorsClass{
+    border-color: green;
+}
+.enemiesClass{
+    border-color: red;
+}
+.defenderClass{
+    border-color: black;
+}
+

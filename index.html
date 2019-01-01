@@ -1,0 +1,68 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Star Wars RPG</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script  src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+    <style>
+        body{
+        background-image: url("assets/images/bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mb-2">
+
+                <img src="assets/images/star.svg" alt="Star" class="star">
+                <img src="assets/images/wars.svg" alt="Wars" class="wars">
+            </div>  
+        </div>
+        <div class="row">
+            <div class="col-md-12" id="warriors"></div>  
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p>Your Character</p>
+            </div>  
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p>Enemies available to attack</p>
+            </div>  
+        </div>
+        <div class="row mb-1">
+            <div class="col-md-12" id="enemies"></div>  
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p>Fight Section</p>
+            </div>  
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <button class="attack">Attack</button>
+            </div>  
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p>Defender</p>
+            </div>  
+        </div>
+        <div class="row">
+            <div class="col-md-12" id="defender"></div>  
+        </div>
+        <div class="row">
+            <div class="col-md-12 restart" id="outcome"></div>  
+        </div>
+    </div>
+</body>
+</html> 
