@@ -150,6 +150,7 @@ $(document).ready(function() {
                             var damage="You Won!!!! GAME OVER!!! <br>";
                             $("#outcome").html(damage);
                             var outcomeBtn = $("<button>");
+                            outcomeBtn.addClass("button1")
                             outcomeBtn.text("Restart");
                             $("#outcome").append(outcomeBtn);
                         }
@@ -158,6 +159,7 @@ $(document).ready(function() {
                         var damage="You have been defeated...GAME OVER!!! <br>";
                         $("#outcome").html(damage);
                         var outcomeBtn = $("<button>");
+                        outcomeBtn.addClass("button1")
                         outcomeBtn.text("Restart");
                         $("#outcome").append(outcomeBtn);
                     }
